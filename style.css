@@ -1,0 +1,57 @@
+#video1 {
+margin: 0 auto;
+display: inline- block;
+width: 560px;
+}
+
+#botao1 {
+  text-align: center;
+  width: 400px;
+  height: 50px;
+  color: black;
+  font-size: 14px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#video2 {
+margin: 0 auto;
+display: inline- block;
+width: 560px;
+}
+
+.prova-social {
+  width: 200px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+} 
+
+.perfil {
+  display: block;
+}
+
+.imagem-corredor {
+}
+
+.imagem-corredor > img {
+  width: 100%;
+}
+
+.texto {
+  width: 50%;
+    float: right;
+    top: -400px;
+    position: relative;
+}
+
+#acao {
+  width: 300px;
+  margin: 0 auto;
+}
