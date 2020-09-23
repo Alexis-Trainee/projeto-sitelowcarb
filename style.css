@@ -115,7 +115,7 @@ h2 {
   background-color:rgba 66.27% 66.27% 66.27% 0;
 }
 
-#prova-social img {
+/* #prova-social img { */
   border: 8px, solid;
   width: 350px;
   height:470px;
@@ -186,4 +186,86 @@ h2 {
 
 .depoimento-conteudo .depoimento-bloco:last-child {
   margin-top: 10px;
+}
+
+/*A parti daqui tentarei criar a divisão dos blocos por conta propria para assim entender como funcionam.*/
+
+.bloco-grande {
+width: 100%;
+padding: 25px 0;
+background-color: orange;
+}
+
+.bloco2 {
+    width: 750px;
+    margin: 0 auto;
+    height:260px;
+    background-color: rebeccapurple;
+    padding: 11px;
+}
+
+.bloco3 {
+width: 350px;
+    height: 255px;
+    background-color: black;
+    border-radius: 10px;
+  
+    display: inline-block;
+}
+
+.bloco4 {
+/* width:350px; */
+/* display:grid; */
+/* float: right; */
+/* background-color: yellow; */
+  /* float:left; */
+  /* background: red; */ 
+  /* width: 200px; */ 
+  /* height: 200px; */ 
+  /* margin-top: 10px; */
+width: 379px;
+height: 250px;
+    float: right;
+    border-radius:14px;
+    padding: 0 0 9px;  
+ margin: -3px -359px;
+background-color: yellow; 
+}
+
+.bloco5 {
+background-color: pink;
+border-radius: 7px;
+height: 120px;
+display: flex;
+margin: 6px; 
+}
+
+/* .bloco5-2 { */
+/* margin: 40px 0 0 -95px; */
+/* } */
+.bloco6 {
+width: 90px;
+height: 90px;
+background-color: black;
+border-radius:50%;
+margin-top: 15px;
+margin-left: 5px;
+}
+
+.bloco7 {
+background-color: pink;
+border-radius: 7px;
+height: 120px;
+display: flex;
+margin: 7px 4px 0 -89px;
+}
+
+.bloco8 {
+width: 90px;
+height: 90px;
+background-color: black;
+border-radius:50%;
+margin-top: 15px;
+margin-left: 5px;
+
 }
