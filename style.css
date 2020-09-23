@@ -25,60 +25,7 @@ body {
   border: 8px solid orange;
   box-shadow: 1px 1px 4px white;
 }
-.video2 {
-  margin:20px 20px;
-}
 
-.bonus { 
-  border: 8px solid white;
-  box-shadow: 1px 1px 4px black;
-  width: 700px;
-  /* height:25%; */
-  margin: 0 auto;
-  /* position: relative; */
-}
-
-.bonus-row {
-  display: inline-block;
-  width: 100%;
-}
-
-.bonus-row .bonus-item:last-child {
-  float: right;
-}
-
-.bonus-item {
-  width: 250px;
-  display: inline-block;
-  text-align: center;
-}
-
-.bonus img {
-  width:200px;
-  height:2oopx;
-}
-
-#acao {
-  border: 20px solid white;
-  box-sizing: border-box;
-  box-shadow: 1px 1px 4px black;
-  width: 700px;
-  margin: 0 auto;
-  font-family: candara arial helvetica;
-  text-align: center;
-  font-size: 30px;
-  line-height: 40px;
-}
-
-#botao2 {
-  width: 400px;
-  height:60px;
-  position: absolut;
-  font-family: arial;
-  font-size: 25px;
-  border: 8px solid orange;
-  box-shadow: 1px 1px 4px white;
-}
 
 #garantia {
   border: 5px solid white;
@@ -113,14 +60,6 @@ h2 {
   position: relative;
   font-size: 25px;
   background-color:rgba 66.27% 66.27% 66.27% 0;
-}
-
-/* #prova-social img { */
-  border: 8px, solid;
-  width: 350px;
-  height:470px;
-  box-sizing: content-box;
-  border: 8px solid white;
 }
 
 .depoimentos {
@@ -268,4 +207,37 @@ border-radius:50%;
 margin-top: 15px;
 margin-left: 5px;
 
+}
+.container-bonus {
+width: 100%;
+    padding: 57px 0;
+    background-color: salmon;
+}
+
+.containment-container {
+    padding: 140px 0px 48px 0px;
+    background-color: black;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.package1 {
+width: 283px;
+    height: 110px;
+    background-color: red;
+}
+
+.package2 {
+height:30px;
+width:30px;
+}
+
+.package3 {
+height:30px;
+width:30px;
+}
+
+.package4 {
+height:30px;
+width:30px;
 }
