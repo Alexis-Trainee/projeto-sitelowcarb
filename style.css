@@ -1,7 +1,7 @@
 body { 
   margin:auto;
   border:auto;
-  background-color: white;
+  background-color: #0e0e0e;
 }
 
 #video1 {
@@ -23,25 +23,21 @@ body {
   transform: translate(-50%, -50%);
   box-shadow: 1px 1px 4px white;
   background-color: crimson;
-    font-size: 28px;
-    color: white;
-    border-radius: 8px;
+  font-size: 28px;
+  color: white;
+  border-radius: 8px;
 }
 
 
-#garantia {
-  border: 5px solid white;
-  box-sizing:25px;
-  margin: 20px auto;
-  text-align: center;
-}
 
 h1 {
   text-align: center;
+  color: white;
 }
 
 h2 {
   text-align: center;
+  color: white;
 } 
 
 .perfil {
@@ -55,34 +51,41 @@ h2 {
   width: 100%;
 }
 
+#when {
+  text-align: center;
+  color: white;
+  margin-top: -71px;
+}
+
 .texto {
   width: 50%;
   float: right;
   top: -500px;
   position: relative;
   font-size: 25px;
-  background-color:rgba 66.27% 66.27% 66.27% 0;
+  color: white;
+  /* background-color:rgba 66.27% 66.27% 66.27% 0; */
 }
 
 .depoimentos {
-    width: 100%;
-    padding: 25px 0;
-    background-color: #6f6f6f;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #1a1221;
 }
 
 .depoimentos-conteudo {
-    width: 750px;
-    margin: 0 auto;
+  width: 750px;
+  margin: 0 auto;
 }
 
 .depoimento-video {
 
-    width: 350px;
-    height: 250px;
-    background-color: black;
-    border-radius: 10px;
+  width: 350px;
+  height: 250px;
+  background-color: black;
+  border-radius: 10px;
 
-    display: inline-block;
+  display: inline-block;
 }
 
 .depoimento-conteudo {
@@ -93,10 +96,10 @@ h2 {
 
 .depoimento-bloco {
 
-    background-color: #949494;
-    border-radius: 7px;
-    height: 120px;
-    display: flex;
+  background-color: #58545b;
+  border-radius: 7px;
+  height: 120px;
+  display: flex;
 }
 
 .depoimento-imagem {
@@ -109,12 +112,12 @@ h2 {
 }
 
 #depoimento-imagem2 {
-width: 90px;
-    height: 90px;
-    background-color: black;
-    border-radius: 50%;
-    margin-top: 0px;
-    margin-left: 0px;
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  border-radius: 50%;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .depoimento-texto {
@@ -126,8 +129,8 @@ width: 90px;
 .depoimento-texto > .title {
   font-size: 16px;
 
-    font-weight: bold;
-    color: white;
+  font-weight: bold;
+  color: white;
 }
 
 .depoimento-texto > .text {
@@ -141,296 +144,392 @@ width: 90px;
 /*A parti daqui tentarei criar a divisão dos blocos por conta propria para assim entender como funcionam.*/
 
 .bloco-grande {
-width: 100%;
-padding: 25px 0;
-background-color: orange;
+  width: 100%;
+  padding: 25px 0;
+  background-color: #1a1221;
 }
 
 .bloco2 {
-    width: 750px;
-    margin: 0 auto;
-    height:260px;
-    background-color: rebeccapurple;
-    padding: 11px;
+  width: 750px;
+  margin: 0 auto;
+  height:260px;
+  background-color: #1a1221;
+  padding: 11px;
 }
 
 .bloco3 {
-width: 350px;
-    height: 255px;
-    background-color: black;
-    border-radius: 10px;
-  
-    display: inline-block;
+  width: 350px;
+  height: 255px;
+  background-color: black;
+  border-radius: 10px;
+
+  display: inline-block;
 }
 
 .bloco4 {
-/* width:350px; */
-/* display:grid; */
-/* float: right; */
-/* background-color: yellow; */
+  /* width:350px; */
+  /* display:grid; */
+  /* float: right; */
+  /* background-color: yellow; */
   /* float:left; */
   /* background: red; */ 
   /* width: 200px; */ 
   /* height: 200px; */ 
   /* margin-top: 10px; */
-width: 379px;
-height: 250px;
-    float: right;
-    border-radius:14px;
-    padding: 0 0 9px;  
- margin: -3px -359px;
-background-color: yellow; 
+  width: 379px;
+  height: 250px;
+  float: right;
+  border-radius:14px;
+  padding: 0 0 9px;  
+  margin: -3px -359px;
+  background-color: #1a1221; 
 }
 
 .bloco5 {
-background-color: pink;
-border-radius: 7px;
-height: 120px;
-display: flex;
-margin: 6px; 
+  background-color: #58545b;
+  border-radius: 7px;
+  height: 120px;
+  display: flex;
+  margin: 6px; 
 }
 
 /* .bloco5-2 { */
 /* margin: 40px 0 0 -95px; */
 /* } */
 .bloco6 {
-width: 90px;
-height: 90px;
-background-color: black;
-border-radius:50%;
-margin-top: 15px;
-margin-left: 5px;
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  border-radius:50%;
+  margin-top: 15px;
+  margin-left: 5px;
 }
 
 .bloco7 {
-background-color: pink;
-border-radius: 7px;
-height: 120px;
-display: flex;
-margin: 7px 4px 0 -89px;
+  background-color: #58545b;
+  border-radius: 7px;
+  height: 120px;
+  display: flex;
+  margin: 8px -1px 0 -95px;
 }
 
 .bloco8 {
-width: 90px;
-height: 90px;
-background-color: black;
-border-radius:50%;
-margin-top: 15px;
-margin-left: 5px;
+  width: 90px;
+  height: 90px;
+  background-color: black;
+  border-radius:50%;
+  margin-top: 15px;
+  margin-left: 5px;
 
 }
 
 .container-bonus {
-background-color: orange;
-    width: 100%;
-    height: 300px;
-    margin: 0 auto;
-    padding: 17px 0;
+  background-color: #0e0e0e;
+  width: 100%;
+  height: 300px;
+  margin: 0 auto;
+  padding: 17px 0;
 } 
 
 .container-bonus2 {
-height: 150px;
-    width: 100%;
-    background-color: black;  
+  height: 150px;
+  width: 100%;
+  background-color: #0e0e0e;  
 }
 
 .package1 {
-width: 49%;
-    background-color: red;
-    border-radius: 10px;
-    height: 150px;
-    display: flex;
-    margin: 6px;
+  width: 49%;
+  background-color:crimson;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
 }
 
 #picture1 {
-border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 20px 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px;
 }
 
 #title01 {
-width: 100%;
-    display: inline-table;
-    text-align: justify;
-    padding: 0px 35px;
-    color: white;
+  width: 100%;
+  display: inline-table;
+  text-align: justify;
+  padding: 0px 35px;
+  color: white;
 }
 
 #text1 {
   text-align: justify;
-    font-size: 20px;
-    color: white;
-    margin-top: 56px;
-    margin: 54px 24px 0 -315px;
+  font-size: 20px;
+  color: white;
+  margin-top: 56px;
+  margin: 54px 24px 0 -315px;
 }
 
 .package2 {
-width: 49%;
-    background-color: brown;
-    float: right;
-    border-radius: 10px;
-    height: 150px;
-    display: flex;
-    margin: 6px;
-    margin-top: -156px;
+  width: 49%;
+  background-color: crimson;
+  float: right;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
+  margin-top: -156px;
 }
 
 #picture2 {
-border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 20px 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px;
 }
 
 #title02 {
-width: 49%;
-    display: inline-table;
-    text-align: justify;
-    padding: 0px 35px;
-    color: white;
+  width: 49%;
+  display: inline-table;
+  text-align: justify;
+  padding: 0px 35px;
+  color: white;
 }
 
 #text2 {
   text-align: justify;
-    font-size: 20px;
-    color: white;
-    margin-top: 56px;
-    margin: 54px 8px 0 -315px;
+  font-size: 20px;
+  color: white;
+  margin-top: 56px;
+  margin: 54px 8px 0 -315px;
 }
 
 
 .container-bonus3 {
- height: 150px;
-    width: 100%;
-    background-color: blue;  
-margin-top: 7px;
+  height: 150px;
+  width: 100%;
+  background-color:#0e0e0e;
+  margin-top: 7px;
 }
 
 .package3 {
-width: 49%;
-    background-color: green;
-    border-radius: 10px;
-    height: 150px;
-    display: flex;
-    margin: 6px;
+  width: 49%;
+  background-color: crimson;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
 }
 
 #picture3 {
-border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 20px 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px;
 }
 
 #title03 {
-width: 100%;
-    display: inline-table;
-    text-align: justify;
-    padding: 0px 35px;
-    color: white;
+  width: 100%;
+  display: inline-table;
+  text-align: justify;
+  padding: 0px 35px;
+  color: white;
 }
 
 #text3 {
   text-align: justify;
-    font-size: 20px;
-    color: white;
-    margin-top: 56px;
-    margin: 54px 102px 0 -315px;
+  font-size: 20px;
+  color: white;
+  margin-top: 56px;
+  margin: 54px 102px 0 -315px;
 }
 
 
 .package4 {
-width: 49%;
-    background-color: gray;
-    float: right;
-    border-radius: 10px;
-    height: 150px;
-    display: flex;
-    margin: 6px;
-    margin-top: -156px;
+  width: 49%;
+  background-color: crimson;
+  float: right;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
+  margin-top: -156px;
 }
 
 #picture4 {
-border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 20px 10px;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 20px 10px;
 }
 
 #title04 {
-width: 49%;
-    display: inline-table;
-    text-align: justify;
-    padding: 0px 35px;
-    color: white;
+  width: 49%;
+  display: inline-table;
+  text-align: justify;
+  padding: 0px 35px;
+  color: white;
 }
 
 #text4 {
   text-align: justify;
-    font-size: 20px;
-    color: white;
-    margin-top: 56px;
-    margin: 54px 24px 0 -179px;
+  font-size: 20px;
+  color: white;
+  margin-top: 56px;
+  margin: 54px 24px 0 -179px;
 }
+
+.package5 {
+  width: 49%;
+  background-color:#58545b;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
+}
+
+.package6 {
+  width: 49%;
+  background-color: #58545b;
+  float: right;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
+  margin-top: -156px;
+}
+
+.package7 {
+  width: 49%;
+  background-color: #58545b;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
+}
+
+.package8 {
+  width: 49%;
+  background-color: #58545b;
+  float: right;
+  border-radius: 10px;
+  height: 150px;
+  display: flex;
+  margin: 6px;
+  margin-top: -156px;
+}
+
+
 .action-box-big {
-width: 431px;
-height: 400px;
-border: 2px solid;
-margin: auto;
-background-color: #251515;
-border-radius: 16px;
+  width: 431px;
+  height: 400px;
+  border: 2px solid crimson;
+  margin: auto;
+  background-color: #0c0a0a;
+  border-radius: 16px;
 }
 
 .text-action {
-border: 1px;
-    width: 99.9%;
-    height: 90%;
+  border: 1px;
+  width: 99.9%;
+  height: 90%;
 }
 
 #call-of-action {
-    text-align: center;
-    line-height: 35px;
-    font-weight: bolder;
-    color: white;
+  text-align: center;
+  line-height: 35px;
+  font-weight: bolder;
+  color: white;
 }
 
 .price {
   text-align: center;
-    line-height: 18px;
-    font-weight: bolder;
-    color: white;
+  line-height: 18px;
+  font-weight: bolder;
+  color: white;
 
 }
 
 #RS {
-text-align: center;
-    line-height: 5px;
-    font-weight: bolder;
-    color: crimson;
-    font-size: 30px;
+  text-align: center;
+  line-height: 5px;
+  font-weight: bolder;
+  color: crimson;
+  font-size: 30px;
 }
 
 .the-button {
-width: 100px;
-    height: 100px;
-    border: 1px;
-    background-color:#251515;;
-    margin: 0 0 0 114px;
+  width: 100px;
+  height: 100px;
+  border: 1px;
+  background-color:#0c0a0a;
+  margin: 0 0 0 114px;
 }
 
 #button-action {
-margin: 50px 0 0 -45px;
-    width: 290px;
-    height: 50px;
-    background-color: crimson;
-    font-size: 20px;
-    border-radius: 14px;
+  margin: 50px 0 0 -45px;
+  width: 290px;
+  height: 50px;
+  background-color: crimson;
+  font-size: 20px;
+  border-radius: 14px;
+  color: white;
 }
 
 .picture-pay {
-width:100%;
-height: 200px;
-border: solid;
+  height: 70px;
+  width: 292px;
+}
+
+#satisfaction {
+
+}
+
+.text-satisfaction {
+  text-align: center;
+  color: white;
+  font-weight: bolder;
+}
+#menu {
+  display: block;
+}
+
+#menu ul {
+  list-style: none;
+  text-transform: uppercase;
+  padding: 0;
+}
+
+#menu ul ul {
+  display: none;
+}
+
+#menu ul li:hover > ul {
+  display: block;
+}
+
+#menu li {
+  display:block;
+  background-color:#2d2222;
+  padding: 10px;
+  margin:20px;
+  transition: background-color 1s;
+}
+
+#menu li:hover {
+  background-color: gray;
+}
+
+li { 
+  color: white;
+  text-align: center;
+}
+#logo {
+  border-radius: 50%;
+  width: 107px;
+  height: 100px;
+}
+
+#contact {
+  text-align: center;
+  color: crimson;
 }
